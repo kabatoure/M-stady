@@ -1,0 +1,245 @@
+/*introductuion05　style.css */
+
+/** common.css **/
+/** base.css **/
+/** top.css **/
+/** main.css **/
+/** button.css **/
+/** custom.css **/
+
+
+@charset "utf-8";
+
+@media(min-width: 321px) {}
+@media(min-width: 992px) {}
+@media(min-width: 768px) {}
+@media(min-width: 1200px) {}
+
+@media(max-width: 1199px) {}
+@media(max-width: 991px) {}
+@media(max-width: 767px) {}
+@media(max-width: 480px) {}
+@media(max-width: 320px) {}
+
+/**********************
+ タイトル（ページ名）
+**********************/
+/*** .cnt ***/
+/**  **/
+/* コメントアウト */
+
+
+/**********************
+ 共通設定
+**********************/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html,body {
+	width: 100%;
+}
+
+html,body/*,ul*/ {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",/* "Yu Gothic", YuGothic,*/ "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #3c3c3c;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+ul,li { list-style: none;}
+p {
+	font-size: 100%;
+	line-height: 1.3em;
+	/*text-align: justify;
+	text-justify:inter-ideograph;*/
+	overflow: hidden;
+}
+a {}
+a:hover { text-decoration: none; }
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.fc-red {
+    color: #C00;
+}
+.fc-twitter {
+	color: #2fa5de;
+}
+.fc-facebook {
+	color: #2e5095;
+}
+/*.container {
+	position: relative;
+	margin: 0 auto;
+}*/
+.cnt_wrap {}
+.cnt_box {}
+.button_box .button {}
+.button_box .button img {}
+/*main*/
+main {
+	/*min-width: ;
+	min-height: ;*/
+}
+main section {
+	width: 100% !important;
+	/*display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;*/
+}
+
+/**********************
+ header
+**********************/
+
+header .navbar {
+	margin-top: 20px;
+}
+header .navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+}
+header .container-fluid {
+	padding-right: 0;
+}
+header .navbar-default .navbar-toggle {
+	border: none;
+}
+header .navbar-toggle .icon-bar {
+	height: 4px;
+}
+header .navbar-collapse {
+	padding-right: 0;
+}
+@media screen and (max-width:767px){
+	header .navbar-collapse {
+		padding-right: 15px;
+		margin-right: 0 !important;
+	}
+	header ul.navbar-nav {
+		margin-right: 5px;
+		float: none !important;
+	}
+}
+header .navbar-toggle .icon-bar {
+	background-color: #888;
+}
+header ul.navbar-nav {
+	float: right;
+}
+header ul.navbar-nav li a {
+	color: #414141;
+}
+header ul.navbar-nav li:last-of-type a {
+	padding-right: 0;
+}
+
+/**********************
+ footer
+**********************/
+footer .copyright {
+	float: left;
+	padding: 0;
+	color: #A8A8A7;
+}
+footer .sns_icon {
+	float: right;
+	padding: 0;
+}
+footer .sns_wrap {
+	float: right;
+}
+footer .sns_wrap a {
+	text-decoration: none;
+	color: #9a9a9a;
+}
+footer .icon {
+	margin-right: 20px;
+}
+footer .sns_icon a:last-of-type .icon {
+	margin-right: 0;
+}
+@media screen and (max-width: 767px){
+	footer .copyright {
+		text-align: center;
+	}
+	footer .sns_icon {
+		text-align: center;
+	}
+	footer .sns_wrap {
+		display: inline-block;
+		float: none;
+		margin-bottom: 20px;
+	}
+}
+
+/**********************
+ main
+**********************/
+#main_contens {}
+
+/**********************
+ base
+**********************/
+#eyechatch_erea {}
+#main_contens ul.bxslider li { text-align: center; }
+#main_contens ul.bxslider li img { max-width: 100%; }
+
+#cnt_area .cnt_wrap {
+	border-bottom: 1px solid #A8A8A7;
+	padding-bottom: 40px;
+}
+/**********************
+ index
+**********************/
+section .cnt_item {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+section .cnt_item:nth-of-type(even){
+	padding-right: 0;
+}
+section .cnt_item:nth-of-type(odd){
+	padding-left: 0;
+}
+@media screen and (max-width: 767px) {
+	section .cnt_item {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+section .cnt_item img {
+	width: 100%;
+}
+
+
+

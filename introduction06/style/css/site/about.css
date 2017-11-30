@@ -1,0 +1,68 @@
+/*プチゲーム　style.css */
+
+/*
+color_site:#EB8221;
+color_text:#333333;
+color_comment:#939393
+---------------------
+color_puzzle:#FFB782;
+color_brain:#EFD018;
+color_card:#9CC0FF;
+color_action:#6FDD8E;
+color_typing:#E682E8;
+
+color_puzzle_text:#CE824E;
+color_brain_text:#AD9B3E;
+color_card_text:#5381C4;
+color_action_text:#3CAF57;
+color_typing_text:#A456A8;
+---------------------
+color_sub_red:#EA2824;
+color_sub_green:#59C65F;
+color_sub_blue:#2487EA;
+color_sub_yellow:#F7C34D;
+*/
+
+@charset "utf-8";
+
+/* 初めての方へ　about.tpl */
+#about .text-blk ul,
+#about_outsideid .text-blk ul,
+#about_outsideid .text-blk ol {
+    margin: 15px 0;
+    list-style-type: none;
+}
+#about .check-list li {
+    margin: 4px 0 4px 10px;
+    font-size: 14px;
+    color: #EFB13C;
+}
+#about_outsideid .text-blk ol li {
+    list-style-type: decimal;
+}
+#about .icon {
+    font-family: 'WebSymbolsRegular';
+}
+#about .text-blk,
+#about_outsideid .text-blk,
+#about_ppoint .text-blk {
+    margin: 15px 10px 25px;
+    line-height: 1.6;
+    list-style-type: circle;
+}
+#about .normal-list li,
+#about_outsideid .normal-list li {
+    margin: 4px 0 4px 10px;
+    font-size: 14px;
+}
+#about .normal-list li img {
+    vertical-align: text-top;
+}
+#about_outsideid ul li span {
+    font-size: 24px;
+}
+#about_outsideid .btn_style1 i {
+    position: absolute;
+    display: inline-block;
+    top: 17px;
+}

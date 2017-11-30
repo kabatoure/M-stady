@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*#149640 #5ac07c*/
+/*#59493f #938176*/
+
+.btn-flat { border-radius: 0;}
+.btn-back { color: #ffffff !important; background-color: #59493f; border: none;}
+.btn-back:hover,
+.btn-back:focus,
+.btn-back:active,
+.btn-back.active,
+.open .dropdown-toggle.btn-back { background-color: #938176;}
+
+.btn-next { color: #ffffff !important; background-color: #149640; border: none;}
+.btn-next:hover,
+.btn-next:focus,
+.btn-next:active,
+.btn-next.active,
+.open .dropdown-toggle.btn-next { background-color: #5ac07c;}
+
+.btn-sp { color: #ffffff !important; background-color: #f8a30c; border: none;}
+.btn-sp:hover,
+.btn-sp:focus,
+.btn-sp:active,
+.btn-sp.active,
+.open .dropdown-toggle.btn-sp { background-color: #fcc567;}
+
+.btn-detail { color: #ffffff !important; 
+	background-image: -webkit-linear-gradient(90deg, #58a437 0%, #87c548 100%);
+	background-image: -moz-linear-gradient(90deg, #58a437 0%, #87c548 100%);
+	background-image: -o-linear-gradient(90deg, #58a437 0%, #87c548 100%);
+	background-image: linear-gradient(0deg, #58a437 0%, #87c548 100%);
+	border: none;
+}
+.btn-detail:hover,
+.btn-detail:focus,
+.btn-detail:active,
+.btn-detail.active,
+.open .dropdown-toggle.btn-detail {}
+
+.btn-decision {  color: #ffffff !important; background-color: #59493f; border: none;}
+.btn-decision:hover,
+.btn-decision:focus,
+.btn-decision:active,
+.btn-decision.active { background-color: #938176;}
+
+.btn-default {  color: #ffffff !important; background-color: #EB8221; border: none;}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active { background-color: #ffb06b;}
+
+/**/
+/**********************
+ p-game original
+**********************/
+/*member*/
+.btn-member { color: #ffffff !important; background-color: #59C65F; border: none;}
+.btn-member:hover,
+.btn-member:focus,
+.btn-member:active,
+.btn-member.active { background-color:;}
+
+/*register*/
+.btn-register { color: #ffffff !important; background-color: #2487EA; border: none;}
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active { background-color:;}
+
+/*puzzle*/
+.btn-puzzle { color: #ffffff !important; background-color: #FFB782; border: none;}
+.btn-puzzle:hover,
+.btn-puzzle:focus,
+.btn-puzzle:active,
+.btn-puzzle.active { background-color:;}
+
+/*brain*/
+.btn-brain { color: #ffffff !important; background-color: #EFD018; border: none;}
+.btn-brain:hover,
+.btn-brain:focus,
+.btn-brain:active,
+.btn-brain.active { background-color:;}
+
+/*card*/
+.btn-card { color: #ffffff !important; background-color: #9CC0FF; border: none;}
+.btn-card:hover,
+.btn-card:focus,
+.btn-card:active,
+.btn-card.active { background-color:;}
+
+/*action*/
+.btn-action { color: #ffffff !important; background-color: #6FDD8E; border: none;}
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.btn-action.active { background-color:;}
+
+/*typing*/
+.btn-typing { color: #ffffff !important; background-color: #E682E8; border: none;}
+.btn-typing:hover,
+.btn-typing:focus,
+.btn-typing:active,
+.btn-typing.active { background-color:;}
+
+/*twitter*/
+.btn-twitter { color: #ffffff !important; background-color: #2FA5DE; border: none;}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active { background-color:;}
+
+/*facebook*/
+.btn-facebook { color: #ffffff !important; background-color: #2E5095; border: none;}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active { background-color:;}
+
+/*btn_style1*/
+.btn_style1 {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	padding: 0;
+	line-height: 70px;
+	font-size: 18px;
+	/*font-weight: 900;*/
+	border-radius: 0;
+	max-width: 400px;
+}
+
+.btn_style1 img {
+	position: absolute;
+	display: inline-block;
+	top: 15px;
+	right: 15px;
+	width: 40px;
+	vertical-align: middle;
+}
+.btn_style1 img.botton_prev {
+	left: 15px;
+/*
+	transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+*/
+}
+.page_confirm .btn_style1,
+#contact_confirm .btn_style1,
+#user_resign_confirm .btn_style1,
+#user_sns_confirm .btn_style1,
+#user_mail_confirm .btn_style1,
+#user_alter_confirm .btn_style1 {
+	width: 48% !important;
+	margin-right: 2%;
+	max-width: inherit;
+}
+.page_confirm .btn_style1:nth-of-type(2),
+#contact_confirm .btn_style1:nth-of-type(2),
+#user_resign_confirm .btn_style1:nth-of-type(2),
+#user_sns_confirm .btn_style1:nth-of-type(2),
+#user_mail_confirm .btn_style1:nth-of-type(2),
+#user_alter_confirm .btn_style1:nth-of-type(2) {
+	margin-left: 2%;
+	margin-right: 0;
+}
+
+/**********************
+ bootstrap reset
+**********************/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: inherit;
+}
+
+/* common processing */
+.btn {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	/*font-weight: bold;*/
+	border-radius: 0;
+
+}
+.btn::before,
+.btn::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.btn,
+.btn::before,
+.btn::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
